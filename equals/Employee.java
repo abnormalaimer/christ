@@ -2,13 +2,11 @@ package equals;
 import java.time.*;
 import java.util.Objects;
 
-import javax.swing.plaf.TextUI;
-
 public class Employee {
     private String name;
     private double salary;
     private LocalDate hireDay;
-public Employee(String n,double s,int year,int month,int day){
+public Employee(String name,double salary,int year,int month,int day){
    this.name=name;
    this.salary=salary;
    hireDay=LocalDate.of(year, month, day);
@@ -35,7 +33,7 @@ public boolean equals(Object otherObject){
     return Objects.equals(name,other.name)&&salary==other.salary&&Objects.equals(hireDay,other.hireDay);
 }
 public int hashCode(){
-    return Objects.hash(name,hireDay);
+    return Objects.hash(name,salary,hireDay);
 }
 public String toString(){
     return getClass().getName()+"[name="+name+",salary="+salary+",hireday="+hireDay+"]";
