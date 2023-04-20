@@ -15,9 +15,9 @@ public class ReflectionTest {
             Class cl=Class.forName(name);
             Class supercl=cl.getSuperclass();
             String modifiers=Modifier.toString(cl.getModifiers());
-            if(modifiers.length()>0) System.out.print(modifiers+" ");
+            if(modifiers.length()>0) System.out.print(modifiers+"  ");
             System.out.println("class "+name);
-            if(supercl!=null&&supercl!=Object.class) System.out.print("extends"+supercl.getName());
+            if(supercl!=null&&supercl!=Object.class) System.out.print("extends "+supercl.getName());
             System.out.print("\n{\n");
             printConstructors(cl);
             System.out.println();
