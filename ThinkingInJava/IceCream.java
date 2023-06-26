@@ -1,4 +1,4 @@
-package computer;
+package ThinkingInJava;
 class Sundae{
     private Sundae(){}
 static Sundae makeSundae(){

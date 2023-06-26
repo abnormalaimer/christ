@@ -1,4 +1,4 @@
-package computer;
+package ThinkingInJava;
 
 public class Cake {
     public static void main(String[] args) {

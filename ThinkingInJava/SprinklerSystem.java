@@ -1,4 +1,4 @@
-package computer;
+package ThinkingInJava;
 class WaterSource{
     private String s;
     WaterSource(){
@@ -17,8 +17,8 @@ public class SprinklerSystem {
           "value2="+value2+" "+
           "value3="+value3+" "+
           "value4="+value4+"\n"+
-          "i="+i+""+"f="+f+""+
-          "source="+source;
+          "i= "+i+" "+"f= "+f+" "+
+          "source= "+source;
     }
     public static void main(String[] args) {
         SprinklerSystem sprinklers=new SprinklerSystem();

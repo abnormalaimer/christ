@@ -1,4 +1,4 @@
-package computer;
+package ThinkingInJava;
 
 public class AutoboxingVarargs {
     public static void f(Integer...args){
