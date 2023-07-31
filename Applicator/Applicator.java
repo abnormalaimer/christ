@@ -1,4 +1,4 @@
-package Applicator;
+ package Applicator;
 
 import java.util.*;
 class Processor{
