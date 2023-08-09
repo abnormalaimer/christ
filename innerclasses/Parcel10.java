@@ -1,0 +1,20 @@
+package innerclasses;
+
+public class Parcel10 {
+    public Destination destination(final String dest,final float price ){
+        return new Destination() {
+            private int cost;{
+                cost=Math.round(price);
+                if(cost>100)
+                System.out.println("over budget");
+            }
+            private String label=dest;
+            @Override
+            public String read Label(){return label;}
+        };
+    }
+    public static void main(String[] args) {
+        Parcel10 p=new Parcel10();
+        Destination d=p.destination("tasmania", 101.395f);
+    }
+}
