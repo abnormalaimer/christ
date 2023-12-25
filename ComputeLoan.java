@@ -13,7 +13,7 @@ public class ComputeLoan {
         double totalPayment=monthlyPayment*numberOfYears*12;
         System.out.println("the monthly is $"+(int)(monthlyPayment*100/100.0));
         System.out.println("the total payment is $"+(int)(totalPayment*100)/100.0);
-    
+
     }
     
 }

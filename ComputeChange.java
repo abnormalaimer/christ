@@ -8,7 +8,7 @@ public class ComputeChange {
         int numberOfOneDollars=remainingAmount/100;
         remainingAmount=remainingAmount%100;
         int numberOfQuarters=remainingAmount/25;
-        remainingAmount=remainingAmount%25;
+       //  remainingAmount=remainingAmount%25;
         
         
 
