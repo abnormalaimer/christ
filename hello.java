@@ -1,10 +1,12 @@
-public class hello{
+import java.lang.Character;
+public class hello  {
+
+
 	public static void main(String[] args) {
-		int a=0b1001;
-		char b='\u2122';
-		System.out.println(a);
-		System.out.println("hello");
-		System.out.println(b);
+		System.out.println("hello1");
+	for (int i = 1; i <args.length ; i++) {
+			System.out.println(" "+args[i]);}
+
 	}
 }
 
