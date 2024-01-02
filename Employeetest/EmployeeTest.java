@@ -15,6 +15,7 @@ public class EmployeeTest {
         petter.setId();
         System.out.println(herry.getName() + "'s id is " + herry.getId());
         System.out.println(petter.getName() + "'s id is " + petter.getId());
+        System.out.println();
 
 
     }
