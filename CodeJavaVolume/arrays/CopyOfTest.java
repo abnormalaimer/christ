@@ -1,4 +1,4 @@
-package arrays;
+package CodeJavaVolume.arrays;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
