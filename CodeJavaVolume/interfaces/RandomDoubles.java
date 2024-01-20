@@ -1,4 +1,4 @@
-package interfaces;
+package CodeJavaVolume.interfaces;
 
 import java.util.Random;
 

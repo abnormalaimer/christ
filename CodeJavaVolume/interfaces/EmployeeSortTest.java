@@ -1,4 +1,4 @@
-package interfaces;
+package CodeJavaVolume.interfaces;
 
 import java.util.*;
 
@@ -13,7 +13,7 @@ public class EmployeeSortTest {
         Arrays.sort(staff);
 
         for(Employee e:staff)
-        System.out.println("name="+e.getName()+",salary="+e.getSalary());
+            System.out.println("name="+e.getName()+",salary="+e.getSalary());
 
     }
     

@@ -1,4 +1,4 @@
-package interfaces;
+package CodeJavaVolume.interfaces;
 
 import java.nio.CharBuffer;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package interfaces;
+package CodeJavaVolume.interfaces;
 
 public class Employee implements Comparable<Employee> {
     private String name;
