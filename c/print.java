@@ -1,6 +1,7 @@
 package c;
 public class print {
-    public static void print(Object s){
-        System.out.println(s);
+    public static void main(String[] args) {
+        System.out.println(args);
     }
+
 }

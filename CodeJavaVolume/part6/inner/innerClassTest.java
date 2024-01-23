@@ -1,4 +1,4 @@
-package CodeJavaVolume.inner;
+package CodeJavaVolume.part6.inner;
 
 
 import javax.swing.*;
@@ -28,7 +28,7 @@ class TalkingClock {
     }
 
     public void start() {
-        ActionListener listener = new TimePrinter();
+        ActionListener listener = this.new TimePrinter();
         Timer t = new Timer(interval, listener);
         t.start();
     }
