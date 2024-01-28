@@ -28,18 +28,23 @@ class TalkingClock {
     }
 
     public void start() {
-        ActionListener listener = this.new TimePrinter();
+        ActionListener listener = new ActionListener(){
+            public void actionPerformed(ActionEvent event){
+                System.out.println("At the tone, the time is " + new Date());
+              if(beep) Toolkit.getDefaultToolkit().beep();;
+            }
+        };
         Timer t = new Timer(interval, listener);
         t.start();
     }
 
-    public class TimePrinter implements ActionListener {
+   /* public class TimePrinter implements ActionListener {
         public void actionPerformed(ActionEvent event) {
             System.out.println("At the tone, the time is " + new Date());
             if (beep) Toolkit.getDefaultToolkit().beep();
 
         }
-    }
+    }*/
 
 
 }
