@@ -3,10 +3,8 @@ package CodeJavaVolume.part6.inner;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Date;
-
 
 //timer的内部类来实现
 public class innerClassTest {
@@ -28,11 +26,9 @@ class TalkingClock {
     }
 
     public void start() {
-        ActionListener listener = new ActionListener(){
-            public void actionPerformed(ActionEvent event){
-                System.out.println("At the tone, the time is " + new Date());
-              if(beep) Toolkit.getDefaultToolkit().beep();;
-            }
+        ActionListener listener = event -> {
+            System.out.println("At the tone, the time is " + new Date());
+          if(beep) Toolkit.getDefaultToolkit().beep();;
         };
         Timer t = new Timer(interval, listener);
         t.start();
