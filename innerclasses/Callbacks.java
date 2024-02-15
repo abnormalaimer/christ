@@ -37,7 +37,7 @@ class Callee2 extends MyIncrement{
     }
 }
 class Caller{
-    private Incrementable callbackReference;
+    private final Incrementable callbackReference;
     Caller(Incrementable cbh){
         callbackReference=cbh;
     }

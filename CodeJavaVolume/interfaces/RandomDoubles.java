@@ -8,7 +8,7 @@ public interface RandomDoubles {
     default double next(){
         return RAND.nextDouble();
     }
-    public static void main(String[] args) {
+    static void main(String[] args) {
         RandomDoubles rd=new RandomDoubles() {};
         for(int i=0;i<7;i++){
             System.out.println(rd.next()+" ");

@@ -4,7 +4,7 @@ package innerclasses;
 public class Parcel5 {
     public Destination destination(String s){
         final class PDestination implements Destination{
-            private String label;
+            private final String label;
 
             private PDestination(String whereTo){
                 label=whereTo;

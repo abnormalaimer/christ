@@ -6,7 +6,8 @@ public class Prime {
         return rangeClosed(2,(long)Math.sqrt(n)) 
          .noneMatch(i->n%i==0);
     
-    };
+    }
+
     public LongStream numbers(){
         return iterate(2, i->i+1).filter(Prime::isPrime);
         

@@ -25,8 +25,8 @@ public class StaticTest {
     class Employee {
         private static int nextld = 1;
 
-        private String name;
-        private double salary;
+        private final String name;
+        private final double salary;
         private int id;
 
         public Employee(String n, double s) {

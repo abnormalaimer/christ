@@ -21,9 +21,9 @@ public class ImageViewer {
 
         class ImageViewerFrame extends JFrame
          {
-            private JLabel label;
+            private final JLabel label;
 
-            private JFileChooser chooser;
+            private final JFileChooser chooser;
             private static final int DEFAULT_WIDTH = 300;
             private static final int DEFAULT_HEIGHT = 400;
             public ImageViewerFrame()

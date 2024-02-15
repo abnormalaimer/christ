@@ -1,10 +1,10 @@
-package CodeJavaVolume.clone;
+package CodeJavaVolume.Part6.clone;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Employee implements Cloneable{
-    private String name;
+    private final String name;
     private double salary;
     private Date hireDay;
 

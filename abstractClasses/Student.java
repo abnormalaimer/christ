@@ -1,7 +1,7 @@
 package abstractClasses;
 
 public class Student extends Person {
-    private String major;
+    private final String major;
     
 public Student(String name,String major){
     super(name);

@@ -5,7 +5,7 @@ import java.util.stream.*;
 import java.util.regex.Pattern;
 import java.util.regex.Pattern.*;
 public class FileToWordsRegexp {
-    private String all;
+    private final String all;
     public FileToWordsRegexp(String filePath) throws Exception{
         all=Files.lines(Paths.get(filePath))
         .skip(1)

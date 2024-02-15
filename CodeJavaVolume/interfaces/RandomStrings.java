@@ -4,7 +4,7 @@ import java.util.*;
 
 
 public class RandomStrings implements Readable {
-    private static Random rand= new Random(47);
+    private static final Random rand= new Random(47);
     private static final char[] CAPITALS="ABCDEFGHIJKLMNOPQRSTUvWXYZ".toCharArray();
     private static final char[] LOWERS="abcdefghijklmnopqrstuvwxyz".toCharArray();
     private static final char[] VOWELS="aeiou".toCharArray();

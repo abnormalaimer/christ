@@ -1,7 +1,7 @@
 package CodeJavaVolume.interfaces;
 
 public class Employee implements Comparable<Employee> {
-    private String name;
+    private final String name;
     private double salary;
 
     public Employee(String name, double salary) {

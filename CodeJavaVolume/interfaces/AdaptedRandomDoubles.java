@@ -14,7 +14,7 @@ public class AdaptedRandomDoubles implements RandomDoubles,Readable {
         if(count--==0){
             return -1;
         }
-        String result=Double.toString(next())+" ";
+        String result= next() +" ";
         cb.append(result);
         return result.length();
     }

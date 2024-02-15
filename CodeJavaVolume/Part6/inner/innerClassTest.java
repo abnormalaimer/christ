@@ -1,4 +1,4 @@
-package CodeJavaVolume.part6.inner;
+package CodeJavaVolume.Part6.inner;
 
 
 import javax.swing.*;
@@ -17,8 +17,8 @@ public class innerClassTest {
 }
 
 class TalkingClock {
-    private int interval;
-    private boolean beep;
+    private final int interval;
+    private final boolean beep;
 
     public TalkingClock(int interval, boolean beep) {
         this.interval = interval;
@@ -28,7 +28,7 @@ class TalkingClock {
     public void start() {
         ActionListener listener = event -> {
             System.out.println("At the tone, the time is " + new Date());
-          if(beep) Toolkit.getDefaultToolkit().beep();;
+          if(beep) Toolkit.getDefaultToolkit().beep();
         };
         Timer t = new Timer(interval, listener);
         t.start();

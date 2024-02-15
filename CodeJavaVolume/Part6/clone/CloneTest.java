@@ -1,4 +1,4 @@
-package CodeJavaVolume.clone;
+package CodeJavaVolume.Part6.clone;
 
 public class CloneTest {
     public static void main(String[] args) {

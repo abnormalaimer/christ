@@ -2,7 +2,7 @@ package innerclasses;
 
 public class Parcel2 {
     class Contents{
-        private int i=11;
+        private final int i=11;
 
         public int value(){return i;}
     }
@@ -10,7 +10,7 @@ public class Parcel2 {
      * InnerParcel2
      */
      class Destination {
-        private String label;
+        private final String label;
 
         Destination(String whereTo){
             label=whereTo;

@@ -2,11 +2,11 @@ package innerclasses;
 
 public class Parcel3 {
     class Contents{
-        private int i=11;
+        private final int i=11;
         public int value(){return i;}
     }
     class Destination{
-        private String label;
+        private final String label;
         Destination(String whereTo){label=whereTo;}
     }
     public static void main(String[] args) {

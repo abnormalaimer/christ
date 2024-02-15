@@ -2,7 +2,7 @@ package abstractClasses;
 import java.time.*;
 public class Employee extends Person{
     private double salary;
-    private LocalDate hireday;
+    private final LocalDate hireday;
 
 public Employee(String name,double salary,int year,int month,int day){
     super(name);
