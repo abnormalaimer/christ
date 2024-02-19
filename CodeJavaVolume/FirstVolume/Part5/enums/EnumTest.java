@@ -1,4 +1,4 @@
-package CodeJavaVolume.FirstVolume.enums;
+package CodeJavaVolume.FirstVolume.Part5.enums;
 import java.util.*;
 public class EnumTest {
     public static void main(String[] args) {
