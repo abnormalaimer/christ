@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ButtonFrame extends JFrame {
-    private JPanel buttonPanel;
+    private final JPanel buttonPanel;
     private static final int DEFAULT_WIDTH = 300;
     private static final int DEFAULT_HEIGHT = 200;
 
@@ -38,7 +38,7 @@ public class ButtonFrame extends JFrame {
 
     private class ColorAction implements ActionListener {
 
-        private Color backgroundColor;
+        private final Color backgroundColor;
 
         public ColorAction(Color c) {
             backgroundColor = c;

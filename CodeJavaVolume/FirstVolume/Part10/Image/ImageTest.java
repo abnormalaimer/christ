@@ -28,7 +28,7 @@ class ImageComponent extends JComponent {
     private static final int DEFAULT_WIDTH = 400;
     private static final int DEFAULT_HEIGHT = 400;
 
-    private Image image;
+    private final Image image;
 
     public ImageComponent() {
         image = new ImageIcon("E:\\Download\\《光之梦想》.jpg").getImage();

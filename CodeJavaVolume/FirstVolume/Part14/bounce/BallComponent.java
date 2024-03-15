@@ -8,7 +8,7 @@ import java.util.List;
 public class BallComponent extends JPanel {
     private static final int DEFAULT_WIDTH = 300;
     private static final int DEFAULT_HEIGHT = 300;
-    private List<Ball> balls=new ArrayList<>();
+    private final List<Ball> balls=new ArrayList<>();
 
     public void add(Ball b){
         balls.add(b);

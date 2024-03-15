@@ -1,0 +1,4 @@
+251495054@qq.com
+2707986664@qq.com
+这是用java发送的
+hello java成功

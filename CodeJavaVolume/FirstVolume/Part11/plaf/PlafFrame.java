@@ -3,7 +3,7 @@ package CodeJavaVolume.FirstVolume.Part11.plaf;
 import javax.swing.*;
 
 public class PlafFrame extends JFrame {
-    private JPanel buttonPanel;
+    private final JPanel buttonPanel;
 
     public PlafFrame() {
         buttonPanel = new JPanel();

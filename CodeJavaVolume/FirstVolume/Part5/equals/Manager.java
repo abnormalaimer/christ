@@ -1,6 +1,7 @@
 package CodeJavaVolume.FirstVolume.Part5.equals;
 
 public class Manager extends Employee {
+    private Employee secretary;
     private double bonus;
 
 public Manager(String name,double salary,int year,int month,int day){
@@ -25,4 +26,12 @@ public int hashCode(){
 public String tostring(){
     return super.toString()+"[bonus="+bonus+"]";
 }
+
+    public Employee getSecretary() {
+        return secretary;
+    }
+
+    public void setSecretary(Employee secretary) {
+        this.secretary = secretary;
+    }
 }
