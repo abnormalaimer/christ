@@ -155,7 +155,7 @@ class RetireFrame extends JFrame{
         retireText.setText("");
         var retireMsg=new MessageFormat("");
         retireMsg.setLocale(currentLocale);
-        retireMsg.applyPattern(resStrings.getString("retire"));
+        retireMsg.applyPattern(resStrings.getString("CodeJavaVolume/SecondVolume/Part10/classLoader/retire"));
         for (int i = info.getCurrentAge(); i <=info.getDeathAge() ; i++) {
             Object[] args={i,info.getBalance(i)};
             retireText.append(retireMsg.format(args)+"\n");
