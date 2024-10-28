@@ -1,4 +1,4 @@
-package com.example.Dog;
+package HeadFirstServletsAndJSP.chapter.src.main.java.com.example.Dog;
 
 public class Dog {
     private String breed;

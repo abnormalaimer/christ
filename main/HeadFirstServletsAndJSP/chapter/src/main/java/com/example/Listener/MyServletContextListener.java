@@ -1,6 +1,7 @@
-package com.example.Listener;
+package HeadFirstServletsAndJSP.chapter.src.main.java.com.example.Listener;
 
-import com.example.Dog.Dog;
+
+import HeadFirstServletsAndJSP.chapter.src.main.java.com.example.Dog.Dog;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
@@ -17,7 +18,9 @@ public class MyServletContextListener implements ServletContextListener {
     }
 
     @Override
-    public void contextDestroyed(ServletContextEvent sce) {
-        ServletContextListener.super.contextDestroyed(sce);
+    public void contextDestroyed(ServletContextEvent servletContextEvent) {
+
     }
+
+
 }

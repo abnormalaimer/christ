@@ -1,6 +1,7 @@
-package com.example.web;
+package HeadFirstServletsAndJSP.chapter.src.main.java.com.example.web;
 
-import com.example.Dog.Dog;
+
+import HeadFirstServletsAndJSP.chapter.src.main.java.com.example.Dog.Dog;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

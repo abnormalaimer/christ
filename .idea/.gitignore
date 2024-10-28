@@ -10,3 +10,5 @@
 *.iml
 *.xml
 *.txt
+*.sql
+*.gitignore
